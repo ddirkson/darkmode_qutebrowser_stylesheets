@@ -297,7 +297,14 @@ hr
 *[class*="Important"]
 { border-color : #9993A1 !important
 ; color        : #B2BDBF !important
-}
+;}
+
+/* Lightens Amazon used pricing*/
+*[class*="a-color-base"]
+{ border-color : #9993A1 !important
+; color        : #B2BDBF !important
+;}
+
 /* - wannabe #2
  ( yes, it is NOT semantic, but this is usefull, trust me ;] )
 */
@@ -622,7 +629,6 @@ div#lbHoverNav a#lbNext
 { background-color:  transparent !important
 }
 
-
 /*
  common progressmeters / progressbars
 */
@@ -719,7 +725,6 @@ body#viewsource .error > :-moz-any(.start-tag, .end-tag, .comment, .cdata, .doct
 span.newmessage
 { color: #f66 !important
 }
-
 
 li#imagebox_bigimages > div,
 /*
