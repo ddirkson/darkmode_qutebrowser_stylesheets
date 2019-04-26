@@ -299,17 +299,79 @@ hr
 ; color        : #B2BDBF
 ;}
 
-/* Lightens Amazon used pricing*/
-*[class*="a-color-base"]
-{ border-color : #9993A1
-; color        : #B2BDBF
-;}
+/* --------------------- personal start page -------------------------- */
+*[class*="box_1"] h2 {
+  color: #F73A3A;
+}
 
-*[class*="ghx-kanban-column-max"] {
-	border-color : #EF393D;
-	color        : #EF393D;
-	background-color: #EF393D;
-	background: #EF393D;
+*[class*="box_2"] h2 {
+  color: #CD5FE1;
+}
+
+*[class*="box_3"] h2 {
+  color: #38BCED;
+}
+
+*[class*="box_4"] h2 {
+  color: #57E96F;
+}
+/* -------------------------------------------------------------- */
+
+/* --------------------- amazon.com -------------------------- */
+/* Lightens Amazon used pricing*/
+*[class*="a-color-base"] {
+	border-color : #9993A1;
+	color        : #B2BDBF;
+}
+/* -------------------------------------------------------------- */
+
+/* --------------------- duckduckgo.com -------------------------- */
+*[class*="page-index body--home body--onboarding"] {
+	background: #201E1E;
+	background-color: #201E1E;
+}
+
+*[class*="search--home  js-search-form search--adv search--focus"] {
+	background: #3C3A3A;
+	background-color: #3C3A3A;
+}
+
+*[class*="js-search-input search__input--adv"] {
+	background: #3C3A3A;
+	background-color: #3C3A3A;
+}
+
+*[class*="result__body links_main links_deep"] {
+	color: #B2BDBF;
+	border-color: #B2BDBF;
+}
+
+*[class*="result__title"]:hover {
+	color: #B2BDBF;
+	border-color: #B2BDBF;
+}
+
+*[class*="result__snippet js-result-snippet"] {
+	color: #B2BDBF;
+	border-color: #B2BDBF;
+}
+
+*[class*="result__snippet js-result-snippet"] b {
+	color: #E5E5E5;
+}
+
+/* -------------------------------------------------------------- */
+
+div#ghx-content-group.ui-sortable {
+	background: #201E1E;
+	background-color: #201E1E;
+	color: #201E1E;
+}
+
+*[class*="sticky-wrapper"] {
+	background: #201E1E;
+	background-color: #201E1E;
+	color: #201E1E;
 }
 
 span.aui-lozenge.aui-lozenge-error {
